@@ -1,0 +1,36 @@
+
+@use '../custom' as *;
+@use '../components/mixins' as *;
+
+
+.footer{
+	background-color: $footer;
+	padding-bottom: 3rem;
+	.intros{
+		margin-top: 3rem;
+		color: $white;
+		h2{
+			font-weight: bold;
+		}
+		.left{
+			margin-top: 3rem;
+			padding-left: 3rem;
+			font-family: 'Poppins';
+			color: $white;
+		}
+		.foot{
+			padding-right: 3rem;
+		  	
+		}
+		.foor{
+			width: 20rem;
+			height: 4rem;
+		}
+		i{
+			color: $white;
+		}
+		.btn{
+			height: 4rem;
+		}
+	}
+}

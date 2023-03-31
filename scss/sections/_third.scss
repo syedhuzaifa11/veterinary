@@ -1,0 +1,65 @@
+
+@use '../custom' as *;
+@use '../components/mixins' as *;
+
+.second-section{
+	margin-top: 6rem;
+	margin-bottom: 6rem;
+	.intros{
+			position: relative;
+.dabba{
+	position: absolute;
+	background-color: $primary;
+	width: 12rem;
+	height: 9rem;
+	left: -0.5rem;
+	bottom:-2.088rem;
+}
+		.video-box{
+			img{
+				position:relative;
+				width: 31.5rem;
+				height: 30rem;
+				margin-top: 4rem;
+			}
+			a{
+				top: 50%;
+				bottom:50%;
+				@include absoluteCenter;
+				span{
+					i{
+						font-size: 6rem;
+						background-color: $primary;
+						color: $white;
+						border-radius: 50%;
+						opacity: 50%;
+					}
+				}
+			}
+		}
+.border-animation{
+	position:absolute;
+	top:0;
+	left:0;
+	border: 0.55rem solid $white;
+	width: 6rem;
+	height: 6rem;
+	border-radius: 50%;
+	animation: pulse-border 1.5s linear infinite;
+	opacity: 70%;
+
+	&--border-1{
+		animation-delay: 1.5s;
+	}
+	&--border-2{
+		animation-delay: 1.2s;
+	}
+
+		}
+	}
+
+}
+.text-sec{
+	margin-top: 3rem;
+
+}

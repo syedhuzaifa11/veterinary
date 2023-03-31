@@ -1,0 +1,47 @@
+
+@use '../custom' as *;
+@use '../components/mixins' as *;
+
+.intro-section{
+	.btn{
+	font-family: 'Poppins';
+	background-color: $secondary;
+	color: $white;
+	// padding: 0.8rem 1.063rem;
+	// padding-right: 2rem;
+	margin-right: 1.875rem;
+	font-size: 0.9rem;
+	display: inline-block;
+	border-radius: 0.5rem;
+	width: 30%;
+	}
+	.bbt{
+		background-color: $primary;
+		border-color: $white;
+		border:0.188rem solid;
+
+	}
+}
+
+
+.second-section{
+	.btn{
+		width: 30%;
+		background-color:$primary;
+	border-radius: 0.5rem;
+	    
+	}
+}
+
+.sixth-section{
+	.btn{
+	font-family: 'Poppins';
+	background-color: $secondary;
+	color: $white;
+	margin-right: 1.875rem;
+	font-size: 0.9rem;
+	display: inline-block;
+	border-radius: 0.5rem;
+	width: 30%;
+	}
+}

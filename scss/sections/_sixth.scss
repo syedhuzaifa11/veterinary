@@ -1,0 +1,24 @@
+
+
+@use '../custom' as *;
+@use '../components/mixins' as *;
+
+.sixth-section{
+	padding-top: 3rem;
+	.row{
+		padding-bottom: 3rem;
+		.price{
+			text-align: center;
+			font-weight: bold;
+			color: $white;
+			font-size: 2rem;
+		}
+		.btn{
+			text-align: center;
+			margin-left: 35%;
+		}
+		.btt{
+
+		}
+	}
+}

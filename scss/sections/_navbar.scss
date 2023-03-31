@@ -1,0 +1,44 @@
+@use '../custom' as *;
+@use '../components/mixins' as *;
+
+.nnn{
+	background-color: #daac00;
+}
+.menu{
+	li{
+		padding: 0.0.7rem;
+
+		&:hover{
+			background-color:$cyan;
+			@include transitionProperty; 
+		}
+		a{
+				color: $white !important;
+				text-transform: capitalize;
+				font-weight: 600;
+				font-size: 1.2rem;
+		}
+	}
+}
+.input-group{
+	.form-control{
+		margin-left: 4.345rem;
+		width: 12.813rem;
+		height: 3rem;
+		border-radius: 0;
+		background-color:$yellow-light;
+		border:none;
+		color: $white;
+		font-family: 'Poppins';
+	}
+    .form-control::-webkit-input-placeholder {
+    	color: $white;
+    	font-family:'Poppins';
+    }
+}
+.btn{
+	border-radius: 0;
+	border:none;
+	width: 2.6rem;
+	height: 3rem;
+}

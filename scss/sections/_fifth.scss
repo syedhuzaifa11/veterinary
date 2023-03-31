@@ -1,0 +1,13 @@
+
+
+@use '../custom' as *;
+@use '../components/mixins' as *;
+
+.dusra-dabba{
+	position: absolute;
+	background-color: $primary;
+	width: 12rem;
+	height: 9rem;
+	right: -0.025rem;
+	bottom:-1.588rem;
+}

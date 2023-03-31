@@ -1,0 +1,29 @@
+
+@use '../custom' as *;
+@use '../components/mixins' as *;
+
+.eight-section{
+	height: 20rem;
+		
+           
+			.care{ 
+				color: $white;
+					i{
+						margin-top: 7rem;
+						margin-bottom: 2rem;
+						font-size: 3rem;
+					}
+					p{
+						font-family: 'Poppins';
+						font-weight: bold;
+						font-size: 2rem;
+					}
+			}
+
+}
+.bg-image{
+			position:relative ;
+			background-color: $primary;
+			opacity: 40%;
+			top: -19rem;
+		}
